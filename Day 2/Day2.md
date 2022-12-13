@@ -18,8 +18,6 @@ Note : start is required and end is optional - Default end is last element/last 
 * Negative Indexing use in slicing
  H   e   l  l  o  _  W  o  r  l  d
 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 
-# Operators
-
 ---
 # Let vs Const vs Var
 * let
@@ -58,3 +56,22 @@ var firstName = "ashi";
 var firstName = "ayushi"; // can declare again
 firstName = "jain"; // can reinitialize
 ``` 
+--- 
+# Arithmetic Operators
+<img width="368" alt="image" src="https://user-images.githubusercontent.com/64698800/207355812-67231b1c-e455-4347-8f9e-5392f64d6605.png">
+
+# Assignment Operators
+<img width="491" alt="image" src="https://user-images.githubusercontent.com/64698800/207355875-2bde7f32-bf48-41eb-ad06-70990fa82b65.png">
+
+# Comparison Operators
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/64698800/207356005-10771bea-15a1-453f-99b0-5e4ae2ad39ad.png">
+
+# Logical Operators
+<img width="209" alt="image" src="https://user-images.githubusercontent.com/64698800/207356077-79490086-b7bc-4871-94f5-33df5020e0a6.png">
+
+# Bitwise Operators
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/64698800/207356208-e21cb27d-7f81-4fee-97de-8c0b9a2ca36f.png">
+
+# Conditional or Ternary Operator
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/64698800/207356379-3430f09b-c875-49a0-a4ee-325cccc28cf0.png">
+---
