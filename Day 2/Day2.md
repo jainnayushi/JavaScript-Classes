@@ -71,8 +71,6 @@ firstName = "jain"; // can reinitialize
 # Logical Operators
 <img width="209" alt="image" src="https://user-images.githubusercontent.com/64698800/207356077-79490086-b7bc-4871-94f5-33df5020e0a6.png">
 
----
-
 # Bitwise Operators
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/64698800/207356208-e21cb27d-7f81-4fee-97de-8c0b9a2ca36f.png">
 
