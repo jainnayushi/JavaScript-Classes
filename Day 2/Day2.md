@@ -16,6 +16,7 @@ string.slice(start, end)
 Note :  Start is inclusive, end is exclusive - [start, end)
 Note : start is required and end is optional - Default end is last element/last index + 1
 * Negative Indexing use in slicing
+-7, -2
  H   e   l  l  o  _  W  o  r  l  d
 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 
 ---
@@ -62,12 +63,15 @@ firstName = "jain"; // can reinitialize
 
 # Assignment Operators
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/64698800/207355875-2bde7f32-bf48-41eb-ad06-70990fa82b65.png">
+---
 
 # Comparison Operators
 <img width="373" alt="image" src="https://user-images.githubusercontent.com/64698800/207356005-10771bea-15a1-453f-99b0-5e4ae2ad39ad.png">
 
 # Logical Operators
 <img width="209" alt="image" src="https://user-images.githubusercontent.com/64698800/207356077-79490086-b7bc-4871-94f5-33df5020e0a6.png">
+
+---
 
 # Bitwise Operators
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/64698800/207356208-e21cb27d-7f81-4fee-97de-8c0b9a2ca36f.png">
