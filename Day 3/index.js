@@ -36,7 +36,7 @@ console.log(0 && "foo"); // false
 console.log("" && "foo"); // false
 console.log("oo" && "foo"); // foo
 console.log("hey");
-console.log(console.log("oo") && console.log("foo")); /// oooo undefined
+console.log(undefined && console.log("foo")); /// oo undefined
 console.log("byee");
 
 // || OR
