@@ -207,14 +207,12 @@ const band = {
   year: 1968,
   anotherFamousSong: "kashmir",
 };
-let { bandName, ...restprops } = band;
+let { bandName, ...restProps } = band;
 console.log(bandName); /// led zeppelin
 console.log(restProps); /// {famousSong: "stairway to heaven",year: 1968, anotherFamousSong: "kashmir"}
 
 // Changing variable name after destructuring
 let {bandName : contestant, famousSong : var2} = band;
-
 console.log(contestant); /// led zeppelin
-console.log(bandName); /// Error // name is contestant now
 ```
 ---
