@@ -211,7 +211,8 @@ function func(){
             counter++;
         }else{
             console.log("Called already!");}}}
-const myFunc = func;
+const myFunc = func();
+// counter - 1
 myFunc(); /// Hi You Called me - return function + counter:1
 myFunc(); /// Called already!
 const myFunc2 = func();
