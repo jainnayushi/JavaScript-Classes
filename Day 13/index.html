@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 13</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial, sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            min-width: 100px;
+            min-height: 100px;
+            padding: 5rem;
+            color: white;
+            font-weight: bold;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .grandparent {
+            background: #b1d4e0;
+            color: black;
+        }
+
+        .parent {
+            background: #145da0;
+        }
+
+        .child {
+            background: #0c2d48;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> Day 13</h1>
+        <hr>
+        <section class="section-todo container">
+            <h2>Your plan for today ?</h2>
+            <!-- todo form  -->
+            <form class="form-todo">
+                <input type="text" name="" id="" placeholder="Add Todo" />
+                <input type="submit" value="Add Todo" class="btn" />
+            </form>
+        </section>
+        <hr>
+        <br>
+        <button onclick="alert('Clicked')">Click Me</button>
+        <br>
+
+        <button class="btn btn-headline" onclick="console.log('Clicked')">Click Me Event listener</button>
+        <br>
+
+        <div class="my-buttons button">
+            <button id="bt"> My Button 1 </button>
+            <button> My Button 2 </button>
+            <button> My Button 3 </button>
+        </div>
+
+        <main>
+            <div class="grandparent box">Grandparent
+                <div class="parent box">Parent
+                    <div class="child box">Child</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
